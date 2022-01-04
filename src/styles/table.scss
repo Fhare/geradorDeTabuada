@@ -1,0 +1,14 @@
+.calc_display {
+  display: flex;
+  align-items: center;
+  gap: 15;
+
+  h2 {
+    margin-right: 10px;
+  }
+
+  span {
+    margin-right: 10px;
+    color: #CCC;
+  }
+}

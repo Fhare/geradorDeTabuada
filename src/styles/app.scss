@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+
+  .data_field {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+
+    input {
+      width: 100%;
+      padding: 10px;
+      background-color: #F0F2F5;
+      border: 2px solid #E5E5E5;
+      border-radius: 12px;
+      text-align: center;
+      font-size: 1.2rem;
+      margin-bottom: 18px;
+    }
+
+    button {
+      width: 100%;
+      padding: 12px;
+      background-color: #6DF263;
+      border: 0;
+      border-radius: 12px;
+      color: #ffffff;
+      font-size: 1.2rem;
+      font-weight: bold;
+      transition: filter 0.2s;
+
+      &:hover {
+        filter: brightness(0.95);
+      }
+    }
+  }
+}
